@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D6BA17B296E605700D8029C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6BA17A296E605700D8029C /* AppDelegate.swift */; };
+		7D6BA17D296E605700D8029C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6BA17C296E605700D8029C /* SceneDelegate.swift */; };
+		7D6BA180296E605700D8029C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA17E296E605700D8029C /* LaunchScreen.storyboard */; };
+		7D6BA183296E605700D8029C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA181296E605700D8029C /* Main.storyboard */; };
+		7D6BA18C296E605700D8029C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6BA18B296E605700D8029C /* AppDelegate.swift */; };
+		7D6BA18F296E605700D8029C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA18D296E605700D8029C /* Main.storyboard */; };
+		7D6BA196296E605700D8029C /* Arsipin Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7D6BA195296E605700D8029C /* Arsipin Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7D6BA1A0296E605700D8029C /* Arsipin Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7D6BA19F296E605700D8029C /* Arsipin Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7D6BA1A6296E605700D8029C /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA161296E605500D8029C /* Main.html */; };
+		7D6BA1A7296E605700D8029C /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA161296E605500D8029C /* Main.html */; };
+		7D6BA1A8296E605700D8029C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA163296E605500D8029C /* Icon.png */; };
+		7D6BA1A9296E605700D8029C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA163296E605500D8029C /* Icon.png */; };
+		7D6BA1AA296E605700D8029C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA164296E605500D8029C /* Style.css */; };
+		7D6BA1AB296E605700D8029C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA164296E605500D8029C /* Style.css */; };
+		7D6BA1AC296E605700D8029C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA165296E605500D8029C /* Script.js */; };
+		7D6BA1AD296E605700D8029C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA165296E605500D8029C /* Script.js */; };
+		7D6BA1AE296E605700D8029C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6BA166296E605500D8029C /* ViewController.swift */; };
+		7D6BA1AF296E605700D8029C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6BA166296E605500D8029C /* ViewController.swift */; };
+		7D6BA1B0296E605700D8029C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA167296E605700D8029C /* Assets.xcassets */; };
+		7D6BA1B1296E605700D8029C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA167296E605700D8029C /* Assets.xcassets */; };
+		7D6BA1B2296E605700D8029C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6BA169296E605700D8029C /* SafariWebExtensionHandler.swift */; };
+		7D6BA1B3296E605700D8029C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6BA169296E605700D8029C /* SafariWebExtensionHandler.swift */; };
+		7D6BA1B4296E605700D8029C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA16B296E605700D8029C /* _locales */; };
+		7D6BA1B5296E605700D8029C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA16B296E605700D8029C /* _locales */; };
+		7D6BA1B6296E605700D8029C /* images in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA16C296E605700D8029C /* images */; };
+		7D6BA1B7296E605700D8029C /* images in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA16C296E605700D8029C /* images */; };
+		7D6BA1B8296E605700D8029C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA16D296E605700D8029C /* manifest.json */; };
+		7D6BA1B9296E605700D8029C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA16D296E605700D8029C /* manifest.json */; };
+		7D6BA1BA296E605700D8029C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA16E296E605700D8029C /* background.js */; };
+		7D6BA1BB296E605700D8029C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA16E296E605700D8029C /* background.js */; };
+		7D6BA1BC296E605700D8029C /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA16F296E605700D8029C /* content.js */; };
+		7D6BA1BD296E605700D8029C /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA16F296E605700D8029C /* content.js */; };
+		7D6BA1BE296E605700D8029C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA170296E605700D8029C /* popup.html */; };
+		7D6BA1BF296E605700D8029C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA170296E605700D8029C /* popup.html */; };
+		7D6BA1C0296E605700D8029C /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA171296E605700D8029C /* popup.css */; };
+		7D6BA1C1296E605700D8029C /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA171296E605700D8029C /* popup.css */; };
+		7D6BA1C2296E605700D8029C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA172296E605700D8029C /* popup.js */; };
+		7D6BA1C3296E605700D8029C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BA172296E605700D8029C /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D6BA197296E605700D8029C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6BA15B296E605500D8029C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D6BA194296E605700D8029C;
+			remoteInfo = "Arsipin Extension (iOS)";
+		};
+		7D6BA1A1296E605700D8029C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6BA15B296E605500D8029C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D6BA19E296E605700D8029C;
+			remoteInfo = "Arsipin Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D6BA1C9296E605700D8029C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7D6BA196296E605700D8029C /* Arsipin Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6BA1D0296E605700D8029C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7D6BA1A0296E605700D8029C /* Arsipin Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D6BA162296E605500D8029C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		7D6BA163296E605500D8029C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7D6BA164296E605500D8029C /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		7D6BA165296E605500D8029C /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		7D6BA166296E605500D8029C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D6BA167296E605700D8029C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D6BA169296E605700D8029C /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		7D6BA16B296E605700D8029C /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		7D6BA16C296E605700D8029C /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		7D6BA16D296E605700D8029C /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		7D6BA16E296E605700D8029C /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		7D6BA16F296E605700D8029C /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		7D6BA170296E605700D8029C /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		7D6BA171296E605700D8029C /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		7D6BA172296E605700D8029C /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		7D6BA177296E605700D8029C /* Arsipin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arsipin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6BA17A296E605700D8029C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D6BA17C296E605700D8029C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7D6BA17F296E605700D8029C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D6BA182296E605700D8029C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D6BA184296E605700D8029C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6BA189296E605700D8029C /* Arsipin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arsipin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6BA18B296E605700D8029C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D6BA18E296E605700D8029C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D6BA190296E605700D8029C /* Arsipin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arsipin.entitlements; sourceTree = "<group>"; };
+		7D6BA195296E605700D8029C /* Arsipin Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Arsipin Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6BA19A296E605700D8029C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6BA19F296E605700D8029C /* Arsipin Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Arsipin Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6BA1A4296E605700D8029C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6BA1A5296E605700D8029C /* Arsipin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arsipin.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D6BA174296E605700D8029C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6BA186296E605700D8029C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6BA192296E605700D8029C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6BA19C296E605700D8029C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D6BA15A296E605500D8029C = {
+			isa = PBXGroup;
+			children = (
+				7D6BA15F296E605500D8029C /* Shared (App) */,
+				7D6BA168296E605700D8029C /* Shared (Extension) */,
+				7D6BA179296E605700D8029C /* iOS (App) */,
+				7D6BA18A296E605700D8029C /* macOS (App) */,
+				7D6BA199296E605700D8029C /* iOS (Extension) */,
+				7D6BA1A3296E605700D8029C /* macOS (Extension) */,
+				7D6BA178296E605700D8029C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D6BA15F296E605500D8029C /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				7D6BA166296E605500D8029C /* ViewController.swift */,
+				7D6BA167296E605700D8029C /* Assets.xcassets */,
+				7D6BA160296E605500D8029C /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		7D6BA160296E605500D8029C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D6BA161296E605500D8029C /* Main.html */,
+				7D6BA163296E605500D8029C /* Icon.png */,
+				7D6BA164296E605500D8029C /* Style.css */,
+				7D6BA165296E605500D8029C /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7D6BA168296E605700D8029C /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				7D6BA169296E605700D8029C /* SafariWebExtensionHandler.swift */,
+				7D6BA16A296E605700D8029C /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		7D6BA16A296E605700D8029C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D6BA16B296E605700D8029C /* _locales */,
+				7D6BA16C296E605700D8029C /* images */,
+				7D6BA16D296E605700D8029C /* manifest.json */,
+				7D6BA16E296E605700D8029C /* background.js */,
+				7D6BA16F296E605700D8029C /* content.js */,
+				7D6BA170296E605700D8029C /* popup.html */,
+				7D6BA171296E605700D8029C /* popup.css */,
+				7D6BA172296E605700D8029C /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7D6BA178296E605700D8029C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D6BA177296E605700D8029C /* Arsipin.app */,
+				7D6BA189296E605700D8029C /* Arsipin.app */,
+				7D6BA195296E605700D8029C /* Arsipin Extension.appex */,
+				7D6BA19F296E605700D8029C /* Arsipin Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D6BA179296E605700D8029C /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				7D6BA17A296E605700D8029C /* AppDelegate.swift */,
+				7D6BA17C296E605700D8029C /* SceneDelegate.swift */,
+				7D6BA17E296E605700D8029C /* LaunchScreen.storyboard */,
+				7D6BA181296E605700D8029C /* Main.storyboard */,
+				7D6BA184296E605700D8029C /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		7D6BA18A296E605700D8029C /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				7D6BA18B296E605700D8029C /* AppDelegate.swift */,
+				7D6BA18D296E605700D8029C /* Main.storyboard */,
+				7D6BA190296E605700D8029C /* Arsipin.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		7D6BA199296E605700D8029C /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				7D6BA19A296E605700D8029C /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		7D6BA1A3296E605700D8029C /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				7D6BA1A4296E605700D8029C /* Info.plist */,
+				7D6BA1A5296E605700D8029C /* Arsipin.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D6BA176296E605700D8029C /* Arsipin (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6BA1CA296E605700D8029C /* Build configuration list for PBXNativeTarget "Arsipin (iOS)" */;
+			buildPhases = (
+				7D6BA173296E605700D8029C /* Sources */,
+				7D6BA174296E605700D8029C /* Frameworks */,
+				7D6BA175296E605700D8029C /* Resources */,
+				7D6BA1C9296E605700D8029C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D6BA198296E605700D8029C /* PBXTargetDependency */,
+			);
+			name = "Arsipin (iOS)";
+			productName = "Arsipin (iOS)";
+			productReference = 7D6BA177296E605700D8029C /* Arsipin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D6BA188296E605700D8029C /* Arsipin (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6BA1D1296E605700D8029C /* Build configuration list for PBXNativeTarget "Arsipin (macOS)" */;
+			buildPhases = (
+				7D6BA185296E605700D8029C /* Sources */,
+				7D6BA186296E605700D8029C /* Frameworks */,
+				7D6BA187296E605700D8029C /* Resources */,
+				7D6BA1D0296E605700D8029C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D6BA1A2296E605700D8029C /* PBXTargetDependency */,
+			);
+			name = "Arsipin (macOS)";
+			productName = "Arsipin (macOS)";
+			productReference = 7D6BA189296E605700D8029C /* Arsipin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D6BA194296E605700D8029C /* Arsipin Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6BA1C6296E605700D8029C /* Build configuration list for PBXNativeTarget "Arsipin Extension (iOS)" */;
+			buildPhases = (
+				7D6BA191296E605700D8029C /* Sources */,
+				7D6BA192296E605700D8029C /* Frameworks */,
+				7D6BA193296E605700D8029C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arsipin Extension (iOS)";
+			productName = "Arsipin Extension (iOS)";
+			productReference = 7D6BA195296E605700D8029C /* Arsipin Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7D6BA19E296E605700D8029C /* Arsipin Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6BA1CD296E605700D8029C /* Build configuration list for PBXNativeTarget "Arsipin Extension (macOS)" */;
+			buildPhases = (
+				7D6BA19B296E605700D8029C /* Sources */,
+				7D6BA19C296E605700D8029C /* Frameworks */,
+				7D6BA19D296E605700D8029C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arsipin Extension (macOS)";
+			productName = "Arsipin Extension (macOS)";
+			productReference = 7D6BA19F296E605700D8029C /* Arsipin Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D6BA15B296E605500D8029C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					7D6BA176296E605700D8029C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					7D6BA188296E605700D8029C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					7D6BA194296E605700D8029C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					7D6BA19E296E605700D8029C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 7D6BA15E296E605500D8029C /* Build configuration list for PBXProject "Arsipin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D6BA15A296E605500D8029C;
+			productRefGroup = 7D6BA178296E605700D8029C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D6BA176296E605700D8029C /* Arsipin (iOS) */,
+				7D6BA188296E605700D8029C /* Arsipin (macOS) */,
+				7D6BA194296E605700D8029C /* Arsipin Extension (iOS) */,
+				7D6BA19E296E605700D8029C /* Arsipin Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D6BA175296E605700D8029C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6BA1A8296E605700D8029C /* Icon.png in Resources */,
+				7D6BA180296E605700D8029C /* LaunchScreen.storyboard in Resources */,
+				7D6BA1A6296E605700D8029C /* Main.html in Resources */,
+				7D6BA1AC296E605700D8029C /* Script.js in Resources */,
+				7D6BA1B0296E605700D8029C /* Assets.xcassets in Resources */,
+				7D6BA183296E605700D8029C /* Main.storyboard in Resources */,
+				7D6BA1AA296E605700D8029C /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6BA187296E605700D8029C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6BA1A9296E605700D8029C /* Icon.png in Resources */,
+				7D6BA1AB296E605700D8029C /* Style.css in Resources */,
+				7D6BA18F296E605700D8029C /* Main.storyboard in Resources */,
+				7D6BA1AD296E605700D8029C /* Script.js in Resources */,
+				7D6BA1B1296E605700D8029C /* Assets.xcassets in Resources */,
+				7D6BA1A7296E605700D8029C /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6BA193296E605700D8029C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6BA1BA296E605700D8029C /* background.js in Resources */,
+				7D6BA1C0296E605700D8029C /* popup.css in Resources */,
+				7D6BA1BE296E605700D8029C /* popup.html in Resources */,
+				7D6BA1B6296E605700D8029C /* images in Resources */,
+				7D6BA1B8296E605700D8029C /* manifest.json in Resources */,
+				7D6BA1B4296E605700D8029C /* _locales in Resources */,
+				7D6BA1BC296E605700D8029C /* content.js in Resources */,
+				7D6BA1C2296E605700D8029C /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6BA19D296E605700D8029C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6BA1BB296E605700D8029C /* background.js in Resources */,
+				7D6BA1C1296E605700D8029C /* popup.css in Resources */,
+				7D6BA1BF296E605700D8029C /* popup.html in Resources */,
+				7D6BA1B7296E605700D8029C /* images in Resources */,
+				7D6BA1B9296E605700D8029C /* manifest.json in Resources */,
+				7D6BA1B5296E605700D8029C /* _locales in Resources */,
+				7D6BA1BD296E605700D8029C /* content.js in Resources */,
+				7D6BA1C3296E605700D8029C /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D6BA173296E605700D8029C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6BA1AE296E605700D8029C /* ViewController.swift in Sources */,
+				7D6BA17B296E605700D8029C /* AppDelegate.swift in Sources */,
+				7D6BA17D296E605700D8029C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6BA185296E605700D8029C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6BA1AF296E605700D8029C /* ViewController.swift in Sources */,
+				7D6BA18C296E605700D8029C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6BA191296E605700D8029C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6BA1B2296E605700D8029C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6BA19B296E605700D8029C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6BA1B3296E605700D8029C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D6BA198296E605700D8029C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D6BA194296E605700D8029C /* Arsipin Extension (iOS) */;
+			targetProxy = 7D6BA197296E605700D8029C /* PBXContainerItemProxy */;
+		};
+		7D6BA1A2296E605700D8029C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D6BA19E296E605700D8029C /* Arsipin Extension (macOS) */;
+			targetProxy = 7D6BA1A1296E605700D8029C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D6BA161296E605500D8029C /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D6BA162296E605500D8029C /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		7D6BA17E296E605700D8029C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D6BA17F296E605700D8029C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7D6BA181296E605700D8029C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D6BA182296E605700D8029C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D6BA18D296E605700D8029C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D6BA18E296E605700D8029C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D6BA1C4296E605700D8029C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D6BA1C5296E605700D8029C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7D6BA1C7296E605700D8029C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56C72BP5C4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Arsipin Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.algoritama.Arsipin.Extension;
+				PRODUCT_NAME = "Arsipin Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D6BA1C8296E605700D8029C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56C72BP5C4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Arsipin Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.algoritama.Arsipin.Extension;
+				PRODUCT_NAME = "Arsipin Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D6BA1CB296E605700D8029C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56C72BP5C4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Arsipin;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.algoritama.Arsipin;
+				PRODUCT_NAME = Arsipin;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D6BA1CC296E605700D8029C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56C72BP5C4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Arsipin;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.algoritama.Arsipin;
+				PRODUCT_NAME = Arsipin;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D6BA1CE296E605700D8029C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Arsipin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56C72BP5C4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Arsipin Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.algoritama.Arsipin.Extension;
+				PRODUCT_NAME = "Arsipin Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D6BA1CF296E605700D8029C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Arsipin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56C72BP5C4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Arsipin Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.algoritama.Arsipin.Extension;
+				PRODUCT_NAME = "Arsipin Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7D6BA1D2296E605700D8029C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Arsipin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56C72BP5C4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Arsipin;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.algoritama.Arsipin;
+				PRODUCT_NAME = Arsipin;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D6BA1D3296E605700D8029C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Arsipin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56C72BP5C4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Arsipin;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.algoritama.Arsipin;
+				PRODUCT_NAME = Arsipin;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D6BA15E296E605500D8029C /* Build configuration list for PBXProject "Arsipin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6BA1C4296E605700D8029C /* Debug */,
+				7D6BA1C5296E605700D8029C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6BA1C6296E605700D8029C /* Build configuration list for PBXNativeTarget "Arsipin Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6BA1C7296E605700D8029C /* Debug */,
+				7D6BA1C8296E605700D8029C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6BA1CA296E605700D8029C /* Build configuration list for PBXNativeTarget "Arsipin (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6BA1CB296E605700D8029C /* Debug */,
+				7D6BA1CC296E605700D8029C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6BA1CD296E605700D8029C /* Build configuration list for PBXNativeTarget "Arsipin Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6BA1CE296E605700D8029C /* Debug */,
+				7D6BA1CF296E605700D8029C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6BA1D1296E605700D8029C /* Build configuration list for PBXNativeTarget "Arsipin (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6BA1D2296E605700D8029C /* Debug */,
+				7D6BA1D3296E605700D8029C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D6BA15B296E605500D8029C /* Project object */;
+}
