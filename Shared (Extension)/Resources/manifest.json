@@ -20,7 +20,12 @@
 
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [
+            "*://theathletic.com/*",
+            "*://*.nytimes.com/*",
+            "*://*.wsj.com/*",
+            "*://*.washingtonpost.com/*"
+        ]
     }],
 
     "action": {
